@@ -1,8 +1,10 @@
+import chefLogo from '../assets/images/chef.png'
+
 function Header() {
 
     return (
         <header>
-            <img src='../src/assets/images/chef.png' alt='Chef Logo' />
+            <img src={chefLogo} alt='Chef Logo' />
             <h3>Chef Cerdan!</h3>
         </header>
     )
