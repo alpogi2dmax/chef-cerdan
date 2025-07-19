@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    background-color: rgb(233, 233, 229);
+}
+
+/**
+header box shadow code:
+box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+*/
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+  border-bottom: solid;
+  border-color: rgb(226, 225, 225);
+  background-color: rgb(242, 244, 248);
+}
+
+header > img {
+  width: 40px
+}
+
+header > span {
+  text-align: center;
+  font-size: 1.3rem
+}
+
+.main-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.input-form > input {
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.input-form > button {
+  background-color: black;
+  color: white;
+  width: 150px;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.ingredients-list {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+
+}
+
+.get-recipe {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  background-color: blanchedalmond;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 0;
+  width: fit-content
+}
+
+.get-recipe > button {
+  display: flex;
+  background-color: rgb(211, 164, 104) ;
+  border: none;
+  border-radius: 20px;
+  height: 60px;
+  align-items: center;
+}
+
+.recipe-format {
+  margin: 20px
+}
